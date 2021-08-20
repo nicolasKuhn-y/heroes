@@ -22,4 +22,5 @@ export const Wrapper = styled.div`
 
 export const FlexWrapper = styled(Wrapper)`
   display: flex;
+  align-items: ${({align}) => align || "start"};
 `;
