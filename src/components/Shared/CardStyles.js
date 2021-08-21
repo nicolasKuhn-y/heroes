@@ -16,11 +16,17 @@ export const CardHeading = styled.h2`
 `;
 
 export const Wrapper = styled.div`
+  height: 100%;
   padding: ${({ pd }) => pd || 0};
   width: ${({ width }) => width || "100%"};
 `;
 
 export const FlexWrapper = styled(Wrapper)`
   display: flex;
+
   align-items: ${({align}) => align || "start"};
+
+  @media (max-width: 31.25rem){
+    flex-direction: column;
+  }
 `;

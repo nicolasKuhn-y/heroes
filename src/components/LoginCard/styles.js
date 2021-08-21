@@ -5,7 +5,7 @@ export const LoginCardContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url(./assets/images/background-login.jpg);
+  background-image: url(heroes/assets/images/background-login.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
