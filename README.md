@@ -1,4 +1,4 @@
-# Título del Proyecto
+# Heroes app
 
 Aplicacion de visualizacion de heroes tanto de Marvel como de Dc comics.
 
