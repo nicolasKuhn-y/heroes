@@ -13,7 +13,8 @@ export const LinkContainer = styled.div`
   display: none;
 
   @media (min-width: 600px) {
-    display: block;
+    display: flex;
+    align-items: center;
   }
 `;
 
@@ -26,6 +27,11 @@ export const Navigation = styled.nav`
     margin: 0 1rem;
     font-size: 1.2;
   }
+`;
+
+export const UserName = styled.span`
+  font-weight: 300;
+  color: #f9f9f9;
 `;
 
 export const MobileLinkWrapper = styled.div`

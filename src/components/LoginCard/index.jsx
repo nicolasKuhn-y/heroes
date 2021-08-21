@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useContext } from "react";
+
+import { AuthContext } from "../../auth/AuthContext";
 
 import { LoginCardContainer } from "./styles";
 import { Card, CardHeading, Wrapper } from "../Shared/CardStyles";
 import { LoginButton } from "../Shared/buttons";
+import { types } from "../../auth/types/types";
 
 export const LoginCard = () => {
+  const { dispatch } = useContext(AuthContext);
+
+  const handleLogin = () => {
+    
+
+    dispatch({
+      type: types.login,
+      payload: {
+        name: "Nicolas",
+      },
+    });
+  };
+
   return (
     <LoginCardContainer>
       <Card mxWidth="22rem">
@@ -16,7 +32,9 @@ export const LoginCard = () => {
             heroes of Dc and Marvel comics.
           </p>
         </Wrapper>
-        <LoginButton to="/"> Login</LoginButton>
+        <LoginButton to="/" onClick={handleLogin}>
+          Login
+        </LoginButton>
       </Card>
     </LoginCardContainer>
   );
