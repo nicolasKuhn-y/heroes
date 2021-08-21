@@ -10,9 +10,9 @@ import { types } from "../../auth/types/types";
 export const LoginCard = () => {
   const { dispatch } = useContext(AuthContext);
 
-  const handleLogin = () => {
-    
+  const lastPath = localStorage.getItem("lastScreenVisited") || "/";
 
+  const handleLogin = () => {
     dispatch({
       type: types.login,
       payload: {
@@ -32,7 +32,7 @@ export const LoginCard = () => {
             heroes of Dc and Marvel comics.
           </p>
         </Wrapper>
-        <LoginButton to="/" onClick={handleLogin}>
+        <LoginButton to={lastPath} onClick={handleLogin}>
           Login
         </LoginButton>
       </Card>

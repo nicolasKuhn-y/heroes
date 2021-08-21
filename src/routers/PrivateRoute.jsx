@@ -9,6 +9,8 @@ export const PrivateRoute = ({
   component: Component,
   ...rest
 }) => {
+  localStorage.setItem("lastScreenVisited", rest.location.pathname);
+
   return (
     <Route
       {...rest}
@@ -23,5 +25,3 @@ PrivateRoute.propTypes = {
   isUserLogged: PropTypes.bool.isRequired,
   component: PropTypes.func.isRequired,
 };
-
-//<LoginScreen {...props}
