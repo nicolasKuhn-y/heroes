@@ -12,8 +12,8 @@ Aplicacion de visualizacion de heroes tanto de Marvel como de Dc comics.
 
 _Estas son las principales tecnologias con las que construi el proyecto_
 
-* [React](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [React-router-dom](https://reactjs.org/) - Libreria para la navegacion
+* [React](https://reactjs.org/) - El framework web usado
+* [React-router-dom](https://reactrouter.com/web/guides/quick-start) - Libreria para la navegacion
 * [Styled components](https://styled-components.com/) - Libreria utilizada para los estilos
 
 ---
