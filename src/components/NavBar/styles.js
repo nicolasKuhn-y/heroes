@@ -9,10 +9,6 @@ export const Header = styled.header`
   }
 `;
 
-export const Head = styled.h2`
-  display: inline;
-`;
-
 export const LinkContainer = styled.div`
   display: none;
 

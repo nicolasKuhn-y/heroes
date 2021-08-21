@@ -5,13 +5,7 @@ import { Direction } from "../Direction";
 
 import { MobileMenu } from "../MobileMenu";
 
-import {
-  Header,
-  Navigation,
-  Head,
-  LinkContainer,
-  MobileLinkWrapper,
-} from "./styles";
+import { Header, Navigation, LinkContainer, MobileLinkWrapper } from "./styles";
 
 import { FlexWrapper } from "../Shared/CardStyles";
 
@@ -30,9 +24,9 @@ export const NavBar = () => {
     <Header>
       <Navigation>
         <FlexWrapper align="center">
-          <Head>
+          <h2>
             <Link to="/">The Comic show</Link>
-          </Head>
+          </h2>
 
           <LinkContainer>
             <Direction path="/marvel" pathName="Marvel" />

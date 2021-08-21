@@ -28,5 +28,6 @@ export const FlexWrapper = styled(Wrapper)`
 
   @media (max-width: 31.25rem){
     flex-direction: column;
+    
   }
 `;
