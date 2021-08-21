@@ -6,7 +6,7 @@ Aplicacion de visualizacion de heroes tanto de Marvel como de Dc comics.
 
 1. Visualizar informacion de los heroes divididos por pantalla segun su publicador.
 2. Barra de busqueda para encontrar a un heroe en especifico.
-3. Sistema de logueo (proximamente).
+3. Simulacion de un sistema de logueo.
 
 ## Construido con 🛠️
 
